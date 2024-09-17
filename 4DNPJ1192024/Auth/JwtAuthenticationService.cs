@@ -15,6 +15,7 @@ namespace _4DNPJ1192024.Auth
             _key = key;
         }
 
+
         public string Authenticate(string userName)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
